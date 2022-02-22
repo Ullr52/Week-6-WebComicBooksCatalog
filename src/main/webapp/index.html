@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome to the online comic book catalog</title>
+</head>
+<body>
+<div class="container">
+<h2>Congratulations on your new comics!</h2>
+<form action = "addComicServlet" method="post">
+Publisher: <input type ="text" name = "publisher" size=10>
+Series: <input type = "text" name = "seriesTitle"size=10>
+Issue Number: <input type = "text" name = "issueNum" size="7"> 
+Author: <input type = "text" name = "author" size=15>
+Illustrator: <input type = "text" name = "illustrator" size=15>
+<input type = "submit" value="Add Comic">
+</form> <br />
+<a href = "viewAllComicsServlet">
+<button class="GFG">
+View your comic's
+</button>
+</a>
+<a href="viewAllCustomerLists">
+<button class="GFG">
+View Customers Lists
+</button>
+</a>
+<a href="addComicsForListServlet">
+<button class="GFG">
+Create a new customer list
+</button>
+</a>
+</div>
+</body>
+</html>
